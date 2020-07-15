@@ -1,0 +1,26 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: cipct
+  cloud:
+    gcp:
+      project-id: cipct-core
+#  jpa:
+#      generate-ddl: true
+#      show-sql: true
+#      database: mysql
+#      hibernate:
+#        ddl-auto: update
+#  datasource:
+#    username: root
+#    password: akash
+#    url: jdbc:mysql://localhost:3306/cipct?useSSL=false
+#    hikari:
+#      connection-timeout: 30000
+#      idle-timeout: 60000
+#      max-lifetime: 1800000
+#      maximum-pool-size: 5
+  mvc:
+    view:
+      suffix: .html
